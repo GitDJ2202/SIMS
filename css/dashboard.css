@@ -1,0 +1,162 @@
+/*DASHBOARD*/
+
+#dashboardMainContainer{
+	display: flex;
+	flex-direction: row;
+}
+
+div.dashboard_sidebar{
+	width: 20%;
+	background: #323232;
+}
+
+div.dashboard_contentContainer{
+	width: 80%;
+    background-color: #f4f6f9;
+}
+
+h3.dashboard_logo{
+	color: #736d42;
+	font-size: 50px;
+	text-align: center;
+    padding-bottom: 20px;
+}
+
+div.dashboard_sidebar_User{
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+}
+
+div.dashboard_sidebar_User img{
+	width: 50px;
+	display: inline-block;
+	border-radius: 50%;
+	border: 2px solid #bca84d;
+	margin-right: 5px;
+    vertical-align: middle;
+}
+
+div.dashboard_sidebar_User span{    
+    top: 20%;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #fff;
+	display: inline-block;
+
+}
+
+ul.dashboard_Menuitems{
+    padding-top: 8px;
+    margin-top: 20px;
+}
+
+ul.dashboard_Menuitems li.liMainMenu{
+    padding: 10px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+ul.dashboard_Menuitems li.liMainMenu a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    padding: 0px 15px;
+    padding-bottom: 15px;
+    padding-right: 0px;
+}
+
+ul.dashboard_Menuitems li.liMainMenu a i{
+    font-size: 23px;
+    width: 30px;
+}
+
+ul.dashboard_Menuitems li:hover{
+    background-color: #bca84d;
+    color: #fff;
+    transition: 0.3s all;
+}
+
+ul.dashboard_Menuitems li.menuActive{
+    background-color: #bca84d;
+    color: #fff;   
+}
+
+div.dashboard_CtopNav{
+    background-color: #fff;
+    padding: 20px;
+}
+
+div.dashboard_CtopNav a{
+    color: #848383;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a#btnLogout{
+    float: right;
+}
+
+div.dashboard_content{
+    padding: 50px 10px 10px 10px;
+}
+
+div.dashboard_contentMain{
+    background-color: #fff;
+    min-height: 800px;
+    height: 100%;
+    
+}
+
+a.subMenuLink{
+    padding-left: 25px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    text-transform: none;
+    font-size: 15px !important;
+}
+
+a.subMenuLink i{
+    font-size: 17px !important;
+}
+
+ ul.subMenus{
+    background: #444444;
+} 
+
+table.tableView td,th{
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+/* Styling for the dashboard */
+.dashboard_data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box_data {
+    flex: 1;
+    background-color: #aea969;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+
+ /* Style for the warning bar */
+ .warning-bar {
+    background-color: #aca445;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
